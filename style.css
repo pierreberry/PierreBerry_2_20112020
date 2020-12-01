@@ -431,11 +431,11 @@ footer{
 footer .box_footer{
     padding-right: 15%;
 }
-footer ul{
+footer .link_footer{
     display: flex;
     flex-direction: column;
 }
-footer ul a{    
+footer .link_footer a{    
     line-height: 30px;
 }
 
