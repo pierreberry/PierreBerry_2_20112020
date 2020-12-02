@@ -253,6 +253,10 @@ nav .nav_link a:hover {
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
 }
 
+.first .dispo .card_dispo_container .card_place a {
+    text-decoration: none;
+}
+
 .first .dispo .card_dispo_container .card_place .img {
     margin-left: 2%;
     margin-top: 2%;
@@ -355,6 +359,15 @@ nav .nav_link a:hover {
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
 }
 
+.first .popular .card_popular_container .card_popular .popular_content a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    margin: 0 0 0 5px;
+}
+
 .first .popular .card_popular_container .card_popular .img_popular {
     margin-top: 10px;
     margin-left: 10px;
@@ -371,11 +384,6 @@ nav .nav_link a:hover {
     padding: 0;
 }
 
-.first .popular .card_popular_container .card_popular .popular_content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
 
 .first .popular .card_popular_container .card_popular:nth-child(1) .img_popular {
     background-image: url("images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
@@ -434,6 +442,10 @@ nav .nav_link a:hover {
 .activity_container .activity_card {
     border-radius: 20px;
     box-shadow: 0px 10px 15px 7px rgba(0, 0, 0, 0.3);
+}
+
+.activity_container .activity_card a {
+    text-decoration: none;
 }
 
 .activity_container .activity_card .img_activity {
@@ -521,6 +533,11 @@ footer .link_footer a {
     html {
         margin: 0;
         padding: 0;
+    }
+
+    main {
+        padding-bottom: 5%;
+        margin: 0;
     }
 
     nav {
@@ -735,9 +752,10 @@ footer .link_footer a {
 
     footer {
         background-color: #F2F2F2;
-        margin-top: 2%;
+        padding: 4%;
         display: flex;
         flex-direction: column;
+        height: 100%;
     }
 
     footer .box_footer {
