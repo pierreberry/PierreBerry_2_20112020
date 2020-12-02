@@ -581,7 +581,6 @@ footer .link_footer a {
     .search {
         display: flex;
         justify-content: center;
-
     }
 
     .search button {
@@ -600,7 +599,7 @@ footer .link_footer a {
         font-size: 1.1rem;
     }
 
-    button p {
+    button .content_button {
         display: none;
     }
 
