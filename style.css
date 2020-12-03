@@ -90,6 +90,8 @@ nav .nav_link a:hover {
     border-bottom: 0.5px solid #F2F2F2;
     border-right: none;
     border-left: none;
+    font-family: "Raleway-Bold";
+    font-size: 1.1rem;
 }
 
 .search input::placeholder {
@@ -255,6 +257,7 @@ nav .nav_link a:hover {
 
 .first .dispo .card_dispo_container .card_place a {
     text-decoration: none;
+    color: black;
 }
 
 .first .dispo .card_dispo_container .card_place .img {
@@ -361,6 +364,7 @@ nav .nav_link a:hover {
 
 .first .popular .card_popular_container .card_popular .popular_content a {
     text-decoration: none;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -446,6 +450,7 @@ nav .nav_link a:hover {
 
 .activity_container .activity_card a {
     text-decoration: none;
+    color: black;
 }
 
 .activity_container .activity_card .img_activity {
