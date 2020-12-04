@@ -522,6 +522,7 @@ footer {
 
 footer .box_footer {
     padding-right: 15%;
+    padding-left: 2%;
 }
 
 footer .link_footer {
@@ -531,6 +532,88 @@ footer .link_footer {
 
 footer .link_footer a {
     line-height: 30px;
+}
+
+@media screen and (max-width: 1400px) {
+    .filters {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .filters .filters_group {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .first {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: inherit;
+        margin: 0;
+    }
+
+    .first .dispo {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: white;
+    }
+
+    .first .dispo .card_dispo_container {
+        justify-content: center;
+    }
+
+    .first .dispo .card_dispo_container .card_place {
+        width: 25%;
+        margin: 1%;
+    }
+
+    .first .popular {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .first .popular .card_popular_container {
+        flex-direction: row;
+    }
+
+    .first .popular .card_popular_container .card_popular {
+        display: flex;
+        width: 50%;
+        height: 200px;
+        background-color: white;
+        margin: 2%;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+    .first .popular .card_popular_container {
+        flex-direction: column;
+    }
+
+    .first .popular .card_popular_container .card_popular {
+        display: flex;
+        width: 60%;
+        height: 200px;
+        background-color: white;
+        margin: 2%;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+    }
+
+    .first .dispo .card_dispo_container {
+        justify-content: center;
+    }
+
+    .first .dispo .card_dispo_container .card_place {
+        width: 45%;
+        margin: 1%;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -578,9 +661,7 @@ footer .link_footer a {
         border-bottom: 3px solid #F2F2F2;
     }
 
-    nav .nav_link a:nth-child(2) {
-        margin-right: -7px;
-    }
+
 
     nav .nav_link a:nth-child(3) {
         position: absolute;
@@ -661,7 +742,6 @@ footer .link_footer a {
         margin-right: 2px;
     }
 
-
     .first {
         display: flex;
         flex-direction: column-reverse;
@@ -676,6 +756,14 @@ footer .link_footer a {
 
     .first .dispo .card_dispo_container {
         justify-content: center;
+    }
+
+    .first .dispo .card_dispo_container .card_place {
+        width: 100%;
+    }
+
+    .first .popular .card_popular_container .card_popular {
+        width: 80%;
     }
 
     .first .popular {
@@ -756,7 +844,6 @@ footer .link_footer a {
     }
 
     footer {
-        background-color: #F2F2F2;
         padding: 4%;
         display: flex;
         flex-direction: column;
